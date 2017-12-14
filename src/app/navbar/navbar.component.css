@@ -1,12 +1,16 @@
 h4 {
- color:#33ff33;
- font-family: aerial-header;
+ 
+ font-family: roboto;
 }
 
-.navbar {
-    background-color:#404040;
-}
 
 .navbar-brand{
     font-weight:bold;
+}
+a{
+    font-weight:bold;
+}
+.navbar-inverse{
+	padding: 0px;
+   box-shadow: none;
 }

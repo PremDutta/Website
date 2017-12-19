@@ -1,0 +1,10 @@
+.container{
+    background-color: white;
+    outline: 1px solid black;
+
+}
+
+.form-control{
+    outline: 1px solid lightgray;
+}
+

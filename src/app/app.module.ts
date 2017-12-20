@@ -7,7 +7,6 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { BookCafeComponent } from './book-cafe/book-cafe.component';
-import { BookNowComponent } from './book-now/book-now.component';
 
 
 @NgModule({
@@ -17,8 +16,7 @@ import { BookNowComponent } from './book-now/book-now.component';
     FooterComponent,
     LandingPageComponent,
     BookCafeComponent,
-    BookNowComponent
-  ],
+    ],
   imports: [
     BrowserModule
   ],

@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { Routes,RouterModule } from '@angular/router';
 
 
 import { AppComponent } from './app.component';
@@ -9,6 +10,10 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { BookCafeComponent } from './book-cafe/book-cafe.component';
 import { BookingPageComponent } from './booking-page/booking-page.component';
 
+const appRoutes: Routes = [
+  {path: '', component: LandingPageComponent},
+  {path: 'booking-page', component: BookingPageComponent},
+];
 
 @NgModule({
   declarations: [
@@ -20,7 +25,8 @@ import { BookingPageComponent } from './booking-page/booking-page.component';
     BookingPageComponent,
     ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]

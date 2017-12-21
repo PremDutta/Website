@@ -1,7 +1,7 @@
 
 
         <!--     *********    END TESTIMONIALS 2      *********      -->
-    <div class="page-header header-filter" data-parallax="true" style="background-image: url('../assets/img/city2.jpg');">
+    <div class="page-header header-filter clear-filter" data-parallax="true" style="background-image: url('../assets/img/city2.jpg');">
   <div class="container">
       <div class="row">
   <div class="col-md-6">
@@ -15,25 +15,25 @@
     <form>
       <div class="form-group">
         <label for="destination">Destination:</label>
-        <select class="form-control" id="destination" placeholder="Select destination">
+        <select class="form-control" placeholder="Select destination">
       <option>Delhi</option>
       <option>Goa</option>
      </select>
       </div>
       <div class="form-group">
         <label for="check-in">Check-in date:</label>
-        <input type="date" class="form-control" id="date" placeholder="Check-in date">
+        <input type="date" class="form-control datepicker" data-date-start-date="+1d" placeholder="Check-in date">
       </div>
       <div class="form-group">
         <label for="check-out">Check-out date:</label>
-        <input type="date" class= "form-control" id="date" placeholder="Check-out date">
+        <input type="date" class= "form-control" placeholder="Check-out date">
       </div>
       <div class="form-group">
         <label for="Guests">Guests:</label>
-        <input type="number" min="1" class="form-control" id="guests" placeholder="1">
+        <input type="number" min="1" class="form-control" placeholder="1" opacity="1">
       </div>
      
-      <button type="submit" class="btn btn-primary active">Check Availabilty</button>
+      <button type="submit" class="btn btn-primary active" id="check"><a href="/booking-page">Check Availabilty</a></button>
     </form>
       </div>
       
